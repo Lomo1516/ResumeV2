@@ -1,0 +1,59 @@
+/* ==============================
+   HEADER / NAME BOX STYLING
+============================== */
+header {
+    display: flex;
+    flex-direction: column; /* Stack name and links vertically */
+    align-items: center;    /* Center horizontally */
+    margin-top: 80px;       /* Push content below navbar */
+}
+
+header h1 {
+    background-color: black; /* Black box */
+    color: white;            /* White text */
+    padding: 20px 40px;      /* Space inside the box */
+    border-radius: 10px;     /* Rounded corners */
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;     /* Space between name and links */
+}
+
+header p {
+    margin: 5px 0;           /* Small spacing between each line */
+    font-size: 1rem;
+}
+
+header p a {
+    color: #04AA6D;          /* Optional: green links for email and LinkedIn */
+    text-decoration: none;
+}
+
+header p a:hover {
+    text-decoration: underline; /* Hover effect for links */
+}
+
+
+
+
+
+
+
+
+
+
+/* ============================================================
+   MOBILE RESPONSIVE STYLING
+============================================================ */
+@media screen and (max-width: 412px) {
+    .topnav {
+        flex-direction: column;       /* Stack links vertically */
+        gap: 5px;                     /* Space between links */
+        padding: 10px 0;
+    }
+
+    .topnav a {
+        padding: 12px 0;              /* Adjust padding for mobile */
+        font-size: 16px;              /* Slightly smaller text */
+    }
+}
+
