@@ -1,67 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Store Checkout & Return Queue Simulation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 - Store Checkout & Return Queue Simulation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="project1.html">Project 1</a></li>
-        <li><a href="project2.html">Project 2</a></li>
-        <li><a href="mailto:ke5624558@ucf.edu">Contact</a></li>
-    </ul>
-</nav>
-
-<header>
-    <h1>Store Checkout & Return Queue Simulation</h1>
-</header>
-
-<main>
-
-    <section>
-        <h2>Project Overview</h2>
-        <p>
-            Developed a Java-based store simulation that models checkout and return lines using linked lists. 
-            The program loads customer data from an external input text file (<code>input.txt</code>), 
-            dynamically routes customers based on transaction type, and processes checkout and return operations 
-            following predefined business rules. This project demonstrates file input/output, 
-            object-oriented programming, and queue-based data structures.
-        </p>
-    </section>
-
-    <section>
-        <h2>Project Images</h2>
-        <img src="images/codeforSimulation.png" 
-             alt="Screenshot of Java program terminal output">
-        <img src="images/imageofSimulation.png" 
-             alt="Screenshot of Java store simulation code">
-        <p>
-            Screenshots showing the program terminal output and the source code.
-        </p>
-    </section>
-
-    <section>
-        <h2>Skills Learned</h2>
-        <ul>
-            <li>Java Programming</li>
-            <li>File Input/Output using text files</li>
-            <li>LinkedList and Queue data structures</li>
-            <li>Object-Oriented Programming (OOP)</li>
-            <li>Algorithmic problem-solving</li>
-        </ul>
-    </section>
-
-</main>
-
-<footer>
-    <p>
-        <a href="index.html">Back to Resume</a>
-    </p>
-</footer>
-
+    <div class="container">
+        <!-- Project Title (Centered) -->
+        <div class="group-1 project-title">
+            <h1 class="profile_name">
+                <span class="profile_name_firstName">Project 2</span>
+                <span class="profile_name_lastName">Details</span>
+            </h1>
+            <p class="profile_title">Store Checkout & Return Queue Simulation (Java)</p>
+        </div>
+        <!-- Project Description (Left Column) -->
+        <div class="group-1 project-description">
+            <div class="project_item">
+                <h3 class="title">Project Overview</h3>
+                <p class="description">
+                    This project is a Java simulation of store checkout and return queues.
+                    It models customer arrival, queue processing, and return handling,
+                    providing a dynamic analysis of store operations and efficiency.
+                </p>
+            </div>
+            <div class="project_item">
+                <h3 class="title">Skills & Technologies Used</h3>
+                <ul class="skill_list description">
+                    <li>Java Programming</li>
+                    <li>Object-Oriented Design</li>
+                    <li>Queues & Data Structures</li>
+                    <li>Simulation & Console Output</li>
+                </ul>
+            </div>
+            <div class="project_item">
+                <h3 class="title">Challenges & Learning</h3>
+                <p class="description">
+                    Through this project, I learned how to simulate real-world processes,
+                    handle multiple customer scenarios, and optimize queue management.
+                    Testing and debugging ensured realistic behavior in various store conditions.
+                </p>
+            </div>
+        </div>
+        <!-- Project Image (Right Column) -->
+        <div class="group-2 project-image-container">
+            <img src="./images/codeforSimulation.png" alt="Project Screenshot 1" class="project-image">
+            <img src="./images/imageofSimulation.png" alt="Project Screenshot 2" class="project-image">
+        </div>
+        <!-- Back to Resume Button (Centered) -->
+        <div class="group-3 back-btn-container">
+            <a href="index.html" class="downloadBtn">← Back to Resume</a>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace()
+    </script>
 </body>
+
 </html>
